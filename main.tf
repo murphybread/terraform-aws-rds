@@ -4,7 +4,7 @@ resource "aws_db_instance" "education" {
   allocated_storage      = 5
   engine                 = "postgres"
   engine_version         = "14.1"
-
+}
 variable "db_name" {
   description = "Unique name to assign to RDS instance"
   default = "t101"
